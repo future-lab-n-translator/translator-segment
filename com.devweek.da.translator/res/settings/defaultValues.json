@@ -1,0 +1,8 @@
+{
+  "defaultValues": {
+    "scope": "com.devweek.da.translator",
+    "version": "1.0",
+    "settings": {
+    }
+  }
+}

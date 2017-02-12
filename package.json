@@ -1,0 +1,9 @@
+{
+  "name": "translator-segment",
+  "version": "1.0.0",
+  "description": "segment for future labs n for real time voice translation",
+  "main": "no",
+  "repository": "https://github.com/future-lab-n-translator/translator-segment.git",
+  "author": "rodaan",
+  "license": "MIT",
+}

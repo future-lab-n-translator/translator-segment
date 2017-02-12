@@ -1,0 +1,14 @@
+{
+  "package": "com.devweek.da.translator",
+  "manifestVersion": 1,
+  "name": "A translator on the go",
+  "author": {
+    "name": "future-lab-n-translator"
+  },
+  "version": 1,
+  "versionName": "1.0.0",
+  "description": "Translates speech to a languages of your choice! Your own personal translator on the go!",
+  "background": {
+    "pollingInterval": 900
+  }
+}
