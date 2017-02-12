@@ -1,6 +1,6 @@
 {
   "schema": {
-    "scope": "com.example.sony.da.timer",
+    "scope": "com.devweek.da.translator",
     "version": "1.0",
     "settings": [
       {
