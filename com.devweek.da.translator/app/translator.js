@@ -24,7 +24,6 @@ da.segment.onresume = function () {
             //}
             //else{
             //da.startSegment();
-        }
             //da.stopSegment();
         },
         onerror: function (error) {
@@ -100,7 +99,23 @@ var callbackobject = {
 
         //Translate api
 
-
+        $.ajax({
+            url: 'http://127.0.0.1:8080/',
+            method: 'POST',
+            contentType: 'application/json; charset=utf-8',
+            xhr: function(){return da.getXhr();},
+            data: {
+               "q": "test",
+               "target": "fr"
+            },
+            dataType: 'json',
+            success: function(data, textStatus, jqXHR){
+                console.log(textStatus, data);
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                console.log('error here:', textStatus);
+            }
+        });
     },
     onerror: function (error) {
         console.log('[SpeechToText] : SpeechToText error message = ' + error.message)
@@ -121,3 +136,4 @@ var callbackobject = {
             }
         });
     }
+}
